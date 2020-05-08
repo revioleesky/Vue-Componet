@@ -15,7 +15,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, NODE_ENV === 'npm' ? './build' : './dist'),
     filename: NODE_ENV === 'npm' ? 'index.js' : 'build.js',
-    publicPath: '/' //通常是CDN地址
+    publicPath: '/', //通常是CDN地址
+    libraryTarget: 'umd',
+    library: 'vue-cnname-avatar'
   },
   resolve: {
     alias: {

@@ -1,2 +1,2 @@
-import nameAvatar from './name-avatar'
+import nameAvatar from './name-avatar/index.vue'
 export default nameAvatar

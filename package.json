@@ -1,6 +1,6 @@
 {
-  "name": "vue-name-avatar",
-  "version": "1.0.0",
+  "name": "vue-cnname-avatar",
+  "version": "1.0.4",
   "description": "a avatar show img or name",
   "main": "build/index.js",
   "keywords": [
@@ -20,7 +20,7 @@
     "build": "cross-env NODE_ENV=production webpack",
     "build:npm": "cross-env NODE_ENV=npm webpack"
   },
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.9.6",
@@ -49,10 +49,7 @@
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
-  },
-  "devDependencies": {
-    "cross-env": "^7.0.2",
+    "webpack-dev-server": "^3.10.3",
     "html-webpack-plugin": "^4.3.0"
   }
 }

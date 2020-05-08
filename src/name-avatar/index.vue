@@ -6,6 +6,7 @@
 </template>
 <script>
 export default {
+  name:"nameAvatar",
   props: {
     scale: {
       type: String,
