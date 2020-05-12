@@ -3,12 +3,38 @@
 实现类似钉钉单人头像
 
 ### 1.查看示例
-![示例](./images/示例.png)
+![示例](https://s1.ax1x.com/2020/05/12/YthYjA.png)
 
 
 ### 2.在项目中使用
 
-
+```
+npm i -S vue-cnname-avatar
+```
+``` vue
+<template>
+  <div id="app" class="center">
+    <div class="mr" >
+      <name-avatar scale='2' name="李亨达"></name-avatar>
+    </div>
+    <div>
+      <name-avatar scale='2' faceUrl="https://c-ssl.duitang.com/uploads/item/201809/21/20180921212643_omxtr.jpg"></name-avatar>
+    </div>
+  </div>
+</template>
+<script>
+import nameAvatar from "vue-cnname-avatar";
+export default {
+  name: "app",
+  components: {
+    nameAvatar
+  },
+  data() {
+    return {};
+  }
+};
+</script>
+```
 
 ### 3.可选配置说明
 
@@ -24,11 +50,7 @@
 
 
 
-### 4.关于二次开发
-可根据自己项目的实际情况进行如下开发
-
-
 ### 更新日志
-v1.0.0
-- 初版
+v1.0.6
+更新说明
   
