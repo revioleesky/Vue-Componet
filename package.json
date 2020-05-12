@@ -1,6 +1,6 @@
 {
-  "name": "vue-cnname-avatar",
-  "version": "1.0.4",
+  "name": "vue-name-avatar",
+  "version": "1.0.0",
   "description": "a avatar show img or name",
   "main": "build/index.js",
   "keywords": [
